@@ -1,0 +1,26 @@
+{
+  "name": "noir-dark",
+  "displayName": "noir dark",
+  "description": "noir-dark-theme",
+  "version": "0.0.1",
+  "publisher": "atatijr",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "noir-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/noir-dark-color-theme.json"
+      }
+    ]
+  }
+}
